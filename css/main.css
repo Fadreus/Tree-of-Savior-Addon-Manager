@@ -1,0 +1,36 @@
+.tabsdemoDynamicHeight md-content {
+	background-color: transparent !important;
+}
+
+.tabsdemoDynamicHeight md-content md-tabs {
+	background: #f6f6f6;
+	border: 1px solid #e1e1e1;
+}
+
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+	background: white;
+}
+
+.tabsdemoDynamicHeight md-content h1:first-child {
+	margin-top: 0;
+}
+
+.listdemoListControls {
+/* Add some right padding so that the text doesn't overlap the buttons */ }
+.listdemoListControls md-divider {
+	margin-top: 10px;
+	margin-bottom: 10px; }
+	.listdemoListControls md-list-item > p,
+	.listdemoListControls md-list-item > .md-list-item-inner > p,
+	.listdemoListControls md-list-item .md-list-item-inner > p,
+	.listdemoListControls md-list-item .md-list-item-inner > .md-list-item-inner > p {
+		-webkit-user-select: none;
+		/* Chrome all / Safari all */
+		-moz-user-select: none;
+		/* Firefox all */
+		-ms-user-select: none;
+		/* IE 10+ */
+		user-select: none;
+	/* Likely future */ }
+	.listdemoListControls .secondary-button-padding p {
+		padding-right: 100px; }
