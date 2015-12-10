@@ -1,3 +1,22 @@
+body {
+	background-color: #040F1F;
+	text: #446392;
+}
+
+h1 {
+	color: #fff;
+}
+
+md-tabs {
+	background: #385073;
+	color: #000;
+}
+
+md-content {
+	background-color: #87A1C7;
+}
+
+/*
 .tabsdemoDynamicHeight md-content {
 	background-color: transparent !important;
 }
@@ -14,6 +33,7 @@
 .tabsdemoDynamicHeight md-content h1:first-child {
 	margin-top: 0;
 }
+*/
 
 .listdemoListControls {
 /* Add some right padding so that the text doesn't overlap the buttons */ }

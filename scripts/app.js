@@ -5,13 +5,14 @@
 
     angular.module('app', [
         'ngRoute',
+		'ngResource',
         'ngMaterial',
         'ngAnimate'
     ])
     .config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/', {
                 templateUrl: _templateBase + '/main/main.html' ,
-                controller: 'mainController',
+                controller: 'MainController',
                 controllerAs: 'mainController'
             });
             $routeProvider.otherwise({ redirectTo: '/' });
